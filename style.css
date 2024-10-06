@@ -1,0 +1,157 @@
+a:link{color: #ffffff}
+a:visited{color: #ffffff}
+a:hover{color: #ffffff}
+a:activce{color:#ffffff}
+
+.history-of{
+    background-color:#ffffff ;
+    border-color: #ffffff;
+    color: #000000;
+} 
+.history-of a:link{color: #0000ff}
+.history-of a:visited{color: #0000ff}
+.history-of a:hover{color: #0000ff}
+.history-of a:activce{color:#0000ff}
+.black-link a:link{color:#000000} 
+.black-link a:visited{color:#000000}
+.black-link a:hover{color:#000000}     
+
+#tree{
+        background: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+#index{
+    margin : 5% ;
+    background-color:#000000 ;
+    border-color: #000000;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.yellow{color: #FFFF7F}
+.black{color:#000000}
+
+.green:link{color:#008000}
+.green:visited{color:#4b0b00}
+.greeen:hover{color:#008000}
+.greeen:active{color:#ff0000}
+
+#fontxl{
+    font-size: x-large;
+}
+
+#fonts{
+    font-size:small
+}
+
+#body-novel{
+    background-color: #121212;
+    margin : 10%;
+}
+
+.novel{
+    width: 80%;
+    background-color:#121212 ;
+    color: #dcdcdc;
+    font-size: large;
+    font-family: "Sanfransisco";
+    line-height:150%;
+    padding-bottom: 50px;
+}
+
+.puyo{
+    background-color:#121212 ;
+    color: #dcdcdc;
+    font-size: large;
+    font-family: "Sanfransisco";
+    line-height:170%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.puyo-txt{
+    font-size: 6px;
+    color: #b4b4b4;
+    line-height: 6px
+}
+
+.puyo-txt-b{
+    font-size: 15px;
+    color: #dcdcdc;
+    line-height: 20px
+}
+
+.aa{
+    color: #dcdcdc;
+    font-size: xx-small;
+    line-height:120%
+}
+
+.novel-img {
+    width: 60%;
+}
+
+@media (max-width: 769px) {
+    #body-novel{
+        margin:8%;
+    }
+    .novel {
+        width: 100%;
+        font-size:15px;
+        line-height:160%;
+        text-align:justify;
+    }
+    .novel-img {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 999px) {
+    #body-novel{
+        margin:10%;
+    }
+    .novel {
+        width: 100%;
+        font-size:17px;
+        line-height:160%;
+        text-align:justify;
+    }
+    .novel-img {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+}
+
+.shutsudohin{
+    height: 200px;
+    background-color:#222222;
+    text-align: center;
+    line-height:100%;
+    font-size:smaller;
+    overflow: hidden;
+    position: relative;
+}
+
+.shutsudohin > span {
+        display: inline-block;
+        white-space: nowrap;
+        animation-name: MarqueeScroll;
+        animation-timing-function: linear;
+        animation-duration: 18s; /* 1周するのにかかる時間 */
+        animation-iteration-count: infinite; /* 繰り返す回数 */
+        }
+        
+        @keyframes MarqueeScroll {
+        from { transform: translateY(0%);}
+        to { transform: translateY(-90%);}
+        }
+
+.tateito{
+    color:#323232
+}
